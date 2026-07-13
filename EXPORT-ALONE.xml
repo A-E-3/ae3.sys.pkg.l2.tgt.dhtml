@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project ae3.sys.l2.tgt.html with Jar-in-Jar Loader">
+	<!--this file was created by Eclipse Runnable JAR Export Wizard-->
+	<!--ANT 1.7 is required                                        -->
+	<target name="create_run_jar">
+		<jar destfile="../ae3/distribution/ae3/java/ru.myx.ae3sys.l2.tgt.dhtml-5.0.jar">
+			<manifest>
+				<attribute name="Main-Class" value="ru.myx.ae3.l2.dhtml.TestDhtml" />
+				<attribute name="Class-Path" value="." />
+			</manifest>
+			<fileset dir="../ae3.sys.l2.tgt.dhtml/bin" />
+			<fileset dir="../ae3.sys.l2.tgt.html/bin" />
+			<fileset dir="../ae3.sdk.l2/bin" />
+			<fileset dir="../ae3.sdk/bin" />
+			<fileset dir="../ae3.sys/bin" />
+			<fileset dir="../ae3.api/bin" />
+		</jar>
+	</target>
+</project>

@@ -1,0 +1,6 @@
+{
+	"type" : "commonjs",
+	"name" : "ae3.sys.l2.tgt.dhtml",
+	"description" : "AE3 L2 Media Target: DHTML",
+	"requires" : "ae3.sys.l2.tgt.html"
+}
