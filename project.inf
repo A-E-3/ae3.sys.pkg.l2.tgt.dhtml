@@ -1,0 +1,12 @@
+Name: ae3.sys.pkg.l2.tgt.dhtml
+Requires: \
+	ae3.api \
+	ae3.sdk \
+	ae3.sys.l2.tgt.html \
+	ae3.sys.l2.tgt.json \
+
+Provides: \
+	ae3.sys.pkg.l2.tgt.dhtml \
+	--source-process:compile-java \
+	source-process:ae3-packages \
+
