@@ -1,7 +1,0 @@
-{
-	layout : "intl",
-	value : {
-		en : "Русский. This is DHTML renderer. It is capable to produce html/dhtml combination allowing both interactive applications and classic html / search engine spider compatibility.",
-		ru : "Это DHTML рендерер. Он способен порождать интерфейс работающий как с ботами и старыми браузерами в виде HTML так в для современных браузеров в виде динамического веб приложения."
-	}
-}
